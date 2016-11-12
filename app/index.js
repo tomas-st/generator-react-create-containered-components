@@ -51,7 +51,7 @@ module.exports = generators.Base.extend({
 
       pathA   = 'app/containers/index.js',
       fileA   = this.readFileAsString(pathA),
-      insertA = "export " + this.containerName + "Container from './ " + this.containerName + "/" + this.containerName + "Container'";
+      insertA = "export " + this.containerName + "Container from './" + this.containerName + "/" + this.containerName + "Container'";
 
       pathB   = 'app/components/index.js',
       fileB   = this.readFileAsString(pathB),
