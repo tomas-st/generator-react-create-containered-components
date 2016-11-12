@@ -11,16 +11,23 @@
     "url": "git+ssh://git@github.com/tomas-st/generator-react-create-containered-components.git"
   },
   "keywords": [
+    "yeoman-generator",
     "React",
     "Pure",
     "Function",
     "Component",
     "Container"
   ],
-  "author": "Tomas Stiller",
+  "author": "mail@tomas.de",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tomas-st/generator-react-create-containered-components/issues"
   },
-  "homepage": "https://github.com/tomas-st/generator-react-create-containered-components#readme"
+  "homepage": "https://github.com/tomas-st/generator-react-create-containered-components#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.24.1"
+  },
+  "files": [
+    "app"
+  ]
 }
