@@ -1,0 +1,26 @@
+{
+  "name": "generator-react-create-containered-components",
+  "version": "1.0.0",
+  "description": "Generating Pure Function Componentes together with their Containers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tomas-st/generator-react-create-containered-components.git"
+  },
+  "keywords": [
+    "React",
+    "Pure",
+    "Function",
+    "Component",
+    "Container"
+  ],
+  "author": "Tomas Stiller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomas-st/generator-react-create-containered-components/issues"
+  },
+  "homepage": "https://github.com/tomas-st/generator-react-create-containered-components#readme"
+}
