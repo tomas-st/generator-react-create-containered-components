@@ -46,6 +46,10 @@ module.exports = generators.Base.extend({
       this.destinationPath('app/components/' + this.containerName + '/' + this.containerName + '.js'),
       {name: this.containerName}
     );
+    this.fs.copyTpl(
+      this.templatePath('styles.lsm'),
+      this.destinationPath('app/components/' + this.containerName + '/styles.lsm')
+    );
 
     var hook = '//#===== yeoman hook =====#',
 
