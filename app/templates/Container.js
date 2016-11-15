@@ -27,4 +27,4 @@ const <%= name %>Container = React.createClass({
 export default connect(
   // mapStateToProps,
   // (dispatch) => bindActionCreators(itemActions, dispatch)
-)(<%= name %>)
+)(<%= name %>Container)
