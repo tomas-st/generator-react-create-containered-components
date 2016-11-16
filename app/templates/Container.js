@@ -1,7 +1,7 @@
 import React, {PropTypes} from "react"
 import {bindActionCreators} from "redux"
 import {connect} from "react-redux"
-<%= name %>} from 'components'
+import {<%= name %>} from 'components'
 
 const {func, int, string} = PropTypes
 // import * as itemActions from 'redux/modules/items'
